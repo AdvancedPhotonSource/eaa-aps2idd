@@ -1,0 +1,11 @@
+[project]
+name = "eaa-driver-scripts-aps-2idd"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "eaa-core @ git+https://github.com/AdvancedPhotonSource/EAA.git@a567fc2e211a98e24e030aa474fa419961ceb508#subdirectory=packages/eaa-core",
+    "eaa-imaging @ git+https://github.com/AdvancedPhotonSource/EAA.git@a567fc2e211a98e24e030aa474fa419961ceb508#subdirectory=packages/eaa-imaging",
+]
+
+[tool.uv]
+package = false
