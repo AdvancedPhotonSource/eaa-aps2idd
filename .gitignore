@@ -1,0 +1,11 @@
+# Python
+*.pyc
+
+# Env
+.venv/
+
+# IDE
+.loglogin
+
+workspace/
+data/
